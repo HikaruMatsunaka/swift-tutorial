@@ -34,7 +34,7 @@ class ViewController1: UIViewController {
             //segueのdestinationから、遷移先のViewControllerを取得できる
             //as!は型定義　詳しくは→https://fukatsu.tech/swift-cast#i
             let vc = segue.destination as! ViewController2
-            //遷移先のViewController2で宣言した変数textを指定する
+            //遷移先のViewController2で宣言した変数textを指定
             vc.textView2 = textField1.text ?? ""
         }
     }
